@@ -80,7 +80,7 @@ img{
 .header-primary{
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.5;
     margin: 80px 0 20px;
 }
 
@@ -88,7 +88,7 @@ img{
 .header-secondary{
     font-size: 2.2rem;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     margin: 40px 0 20px;
 }
 
@@ -146,6 +146,18 @@ img{
     background-color: #000;
     color: #fff;
 }
+
+.card{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+
 
 /* NAVBAR */
 
@@ -251,7 +263,7 @@ ion-icon{
 /* video */
 
 .video{
-   padding: 40px 0 40px;
+   padding: 40px 0;
 }
 
 .video-header{
@@ -266,4 +278,35 @@ ion-icon{
 
 .video-preview{
     margin-bottom: 30px;
+}
+
+
+
+
+
+/* TESTIMONIAL SECTION */
+
+
+.testimonials{
+    padding: 60px 0;
+}
+
+.testimonial-header{
+    width:700px;
+}
+
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+
+.author-title{
+    font-size: 1.2rem;
+}
+
+.card .author:nth-child(2){
+    font-weight: bold;
+    margin-top: 30px;
 }
